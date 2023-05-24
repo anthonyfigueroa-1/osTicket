@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket</h1>
-This tutorial outlines the installation, configuration, and ticketing lifestyle of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the configuration and ticketing lifestyle of the open-source help desk ticketing system osTicket.<br />
 
 
 
@@ -16,14 +16,6 @@ This tutorial outlines the installation, configuration, and ticketing lifestyle 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
-
-<h2>List of Prerequisites</h2>
-
-- Create a virtual machine within Azure that will be used to install osTicket onto.
-- Item 2
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
