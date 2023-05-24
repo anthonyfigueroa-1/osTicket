@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
+- Create a virtual machine within Azure that will be used to install osTicket onto.
 - Item 2
 - Item 3
 - Item 4
