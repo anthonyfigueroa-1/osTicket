@@ -17,13 +17,19 @@ This tutorial outlines the configuration and ticketing lifestyle of the open-sou
 
 - Windows 10</b> (21H2)
 
-<h2>Installation Steps</h2>
+<h2>Prerequisits<h2>
+<p>
+- Have a virtual machine within Azure that has osTicket installed.
+- Have created an account within osTicket with mySQL within your browser.
+</p>
+
+<h2>Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First we configure roles, departments, and teams. To do that we must first go into the admin panel and from there we have access to all the respective tabs. In roles we will create a "supreme admin" role that has access to do everything osTicket allows roles to do. Then in departments we will create a "system administrators" department. And then finally in teams we will create two teams, one named "level 1 support" and the other named "level 2 support."
 </p>
 <br />
 
@@ -31,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We will now allow anyone to create tickets so to do that we will go into settings, while still in the admin panel, and then to user settings. From there we make registration required: require registration and login to create tickets.
 </p>
 <br />
 
