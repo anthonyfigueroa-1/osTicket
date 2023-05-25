@@ -17,7 +17,7 @@ This tutorial outlines the configuration and ticketing lifestyle of the open-sou
 
 - Windows 10</b> (21H2)
 
-<h2>Prerequisits<h2>
+<h2>Prerequisites<h2>
 
 - Have a virtual machine within Azure that has osTicket installed.
 - Have created an account within osTicket with mySQL within your browser.
