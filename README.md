@@ -19,8 +19,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 
 <h2>Prerequisites<h2>
 
-- Have a virtual machine within Azure that has osTicket installed.
-- Have created an account within osTicket with mySQL within your browser.
+- Have a virtual machine within Azure running Windows 10.
 
 <h2>Steps</h2>
 
@@ -28,7 +27,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-First we configure roles, departments, and teams. To do that we must first go into the admin panel and from there we have access to all the respective tabs. In roles we will create a "supreme admin" role that has access to do everything osTicket allows roles to do. Then in departments we will create a "system administrators" department. And then finally in teams we will create two teams, one named "level 1 support" and the other named "level 2 support."
+
+  -Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+- World Wide Web Services -> Application Development Features ->
+  - [X] CGI
+  - [X] Common HTTP Features
+
 </p>
 <br />
 
