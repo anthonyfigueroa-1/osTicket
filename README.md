@@ -27,14 +27,10 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <p>
 <img src="https://i.imgur.com/DZkA3YW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 - World Wide Web Services -> Application Development Features ->
-  - [X] CGI
-  - [X] Common HTTP Features
-
-</p>
+  - CGI
+  - Common HTTP Features
 <br />
 
 <p>
@@ -83,14 +79,11 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <p>
 <img src="https://i.imgur.com/aFE3ptb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
   - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
     - Typical Setup ->
     - Launch Configuration Wizard (after install) ->
     - Standard Configuration ->
     - Password1
-
-</p>
 <br />
   
 <p>
@@ -123,26 +116,21 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <p>
 <img src="https://i.imgur.com/Noh9pIT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
   - Install osTicket v1.15.8
     - Download osTicket from the Installation Files Folder
     -  Extract and copy “upload” folder to c:\inetpub\wwwroot
     -  Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
   - Reload IIS (Open IIS, Stop and Start the server)
-</p>
 <br />
   
 <img src="https://i.imgur.com/U2Cpghy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
   - Go to sites -> Default -> osTicket
     - On the right, click “Browse *:80”
-</p>
 <br />
   
 <img src="https://i.imgur.com/RaIFlcR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
   - Note that some extensions are not enabled
     - Go back to IIS, sites -> Default -> osTicket
     - Double-click PHP Manager
@@ -151,7 +139,6 @@ This tutorial outlines the installation of the open-source help desk ticketing s
       - Enable: php_intl.dll
       - Enable: php_opcache.dll
     - Refresh the osTicket site in your browse, observe the changes
-</p>
 <br />
 
 <img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
