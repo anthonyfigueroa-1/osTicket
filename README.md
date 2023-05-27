@@ -120,21 +120,26 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <p>
 <img src="https://i.imgur.com/Noh9pIT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+  
   - Install osTicket v1.15.8
     - Download osTicket from the Installation Files Folder
     -  Extract and copy “upload” folder to c:\inetpub\wwwroot
     -  Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
   - Reload IIS (Open IIS, Stop and Start the server)
+  
 <br />
   
 <img src="https://i.imgur.com/U2Cpghy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+  
   - Go to sites -> Default -> osTicket
     - On the right, click “Browse *:80”
+  
 <br />
   
 <img src="https://i.imgur.com/RaIFlcR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
   - Note that some extensions are not enabled
     - Go back to IIS, sites -> Default -> osTicket
     - Double-click PHP Manager
@@ -143,6 +148,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
       - Enable: php_intl.dll
       - Enable: php_opcache.dll
     - Refresh the osTicket site in your browse, observe the changes
+ 
 <br />
 
 <img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
