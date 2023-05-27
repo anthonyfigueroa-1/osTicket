@@ -27,10 +27,12 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <p>
 <img src="https://i.imgur.com/DZkA3YW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+  
 - Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 - World Wide Web Services -> Application Development Features ->
   - CGI
   - Common HTTP Features
+  
 <br />
 
 <p>
