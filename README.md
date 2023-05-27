@@ -28,7 +28,7 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 </p>
 <p>
 
-  -Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+- Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 - World Wide Web Services -> Application Development Features ->
   - [X] CGI
   - [X] Common HTTP Features
