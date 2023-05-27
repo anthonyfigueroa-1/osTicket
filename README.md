@@ -54,25 +54,130 @@ This tutorial outlines the installation of the open-source help desk ticketing s
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zKJECfQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will now allow anyone to create tickets so to do that we will go into settings, while still in the admin panel, and then to user settings. From there we make registration required: require registration and login to create tickets.
+  - Create the directory C:\PHP
 </p>
 <br />
   
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gzxGX8Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will now allow anyone to create tickets so to do that we will go into settings, while still in the admin panel, and then to user settings. From there we make registration required: require registration and login to create tickets.
+  - From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-We will now allow anyone to create tickets so to do that we will go into settings, while still in the admin panel, and then to user settings. From there we make registration required: require registration and login to create tickets.
+  - From the Installation Files, download and install VC_redist.x86.exe.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/LXvbPLs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/aFE3ptb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+    - Typical Setup ->
+    - Launch Configuration Wizard (after install) ->
+    - Standard Configuration ->
+    - Password1
+
+</p>
+<br />
+  
+<p>
+<img src="https://i.imgur.com/bXkb3wZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Open IIS as an Admin
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2QVRzzU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Register PHP from within IIS
+</p>
+<br />
+  
+<p>
+<img src="https://i.imgur.com/U2JP2IM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<br />
+  
+<p>
+<img src="https://i.imgur.com/4orxr1P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/Noh9pIT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Install osTicket v1.15.8
+    - Download osTicket from the Installation Files Folder
+    -  Extract and copy “upload” folder to c:\inetpub\wwwroot
+    -  Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+  - Reload IIS (Open IIS, Stop and Start the server)
+</p>
+<br />
+  
+<img src="https://i.imgur.com/U2Cpghy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Go to sites -> Default -> osTicket
+    - On the right, click “Browse *:80”
+</p>
+<br />
+  
+<img src="https://i.imgur.com/RaIFlcR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - Note that some extensions are not enabled
+    - Go back to IIS, sites -> Default -> osTicket
+    - Double-click PHP Manager
+    - Click “Enable or disable an extension”
+      - Enable: php_imap.dll
+      - Enable: php_intl.dll
+      - Enable: php_opcache.dll
+    - Refresh the osTicket site in your browse, observe the changes
+</p>
+<br />
+
+<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - From the Installation Files, download and install VC_redist.x86.exe.
+</p>
+<br />
+
+<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - From the Installation Files, download and install VC_redist.x86.exe.
+</p>
+<br />
+
+<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - From the Installation Files, download and install VC_redist.x86.exe.
+</p>
+<br />
+
+<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  - From the Installation Files, download and install VC_redist.x86.exe.
 </p>
 <br />
