@@ -151,30 +151,73 @@ This tutorial outlines the installation of the open-source help desk ticketing s
  
 <br />
 
-<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ztegeBV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  - From the Installation Files, download and install VC_redist.x86.exe.
-</p>
+
+  - Rename: ost-config.php
+    - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+    - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
 <br />
 
-<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/r3dHH0U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  - From the Installation Files, download and install VC_redist.x86.exe.
+<img src="https://i.imgur.com/i160Amf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+  - Assign Permissions: ost-config.php
+    - Disable inheritance -> Remove All
+    - New Permissions -> Everyone -> All
+
 <br />
 
-<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MtivKWR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  - From the Installation Files, download and install VC_redist.x86.exe.
-</p>
+
+  - Continue Setting up osTicket in the browser (click Continue)
+    - Name Helpdesk
+    - Default email (receives email from customers)
+
 <br />
 
-<img src="https://i.imgur.com/o4gqp4D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5RAWk0V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-  - From the Installation Files, download and install VC_redist.x86.exe.
+<img src="https://i.imgur.com/KEpY7rq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+  - From the Installation Files, download and install HeidiSQL.
+    - Open Heidi SQL
+    - Create a new session, root/Password1
+    - Connect to the session
+    - Create a database called “osTicket”
+
+<br />
+
+<img src="https://i.imgur.com/hoNN4SQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+  - Continue Setting up osticket in the browser
+    - MySQL Database: osTicket
+    - MySQL Username: root
+    - MySQL Password: Password1
+    - Click “Install Now!”
+  - Congratulations, hopefully it is installed with no errors!
+    - Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+
+
+<br />
+
+<img src="https://i.imgur.com/1FL9yYM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<img src="https://i.imgur.com/8YM4Jrs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+  - Clean up
+    - Delete: C:\inetpub\wwwroot\osTicket\setup
+    - Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+   - Notes:
+    - Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
+    - End Users osTicket URL: http://localhost/osTicket/ 
+
 <br />
